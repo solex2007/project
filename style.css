@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:gr4;
+    color: black;
+    font-family:Tahoma ;
+    font-size: 16px;
+}
+
+.head{
+    background: blue;
+    position: relative;
+    padding: 15px;
+    padding-top: 1px;
+}
+.head h1{
+   color: white;
+    font-family: cursive;
+    position: relative;
+    animation-name: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes heading {
+    0% {top: -90px;}
+    100% {top:-10px;}
+}
+
+
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+ .active, .list ul li a:hover{
+    color: black;
+    background-color: blue;
+    padding: 10px 1px;
+    border-radius: 3px;
+}
+
+.move{
+    color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color:red;
+}
+
+
+
+.list{
+    text-align: center;
+    background: black;
+}
+
+.list ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.list ul li{
+    width: 120px;
+    margin: 15px;
+  padding: 10px;
+}
+
+.side-bar{
+    width: 250px;
+    height: 200vh;
+    background: linear-gradient(blue, black);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 120px;
+    border: 1px solid black;
+}
+
+ .side-bar .list-2 ul li{
+  margin-top: 35px;
+
+}
+
+.side-bar  .list-2 ul{
+    list-style: none;
+    text-align: center;
+}
+
+.input{
+    text-align: end;
+    margin-right: -15px;
+}
+.input input{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.img-1{
+   margin-top: 10px;
+}
+
+.list-3 ul{
+    list-style: square;
+}
+
+.list-3 ul li{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.box-1{
+    color: black ;  
+    text-align: end;
+    align-items: end;
+    margin-top: 50px;
+    margin-left:550px;
+    float:left;
+    box-sizing: border-box;
+}
+
+.box-1 .img-2{
+    margin-left: -200px;
+}
+audio{
+    margin-left: -800px;
+}
+
+.box-1 .img-2 h2 {
+    color: black;
+}
+.down h2{
+    text-align: center;
+    margin-left:150px;
+}
+
+.box-1 .img-2 h1 {
+    color: black;
+}
+.down h1{
+    text-align: center;
+    margin-left:150px;
+}
